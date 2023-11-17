@@ -1,0 +1,57 @@
+.top-bar {
+    background-color: blue; 
+    color: white; 
+    padding: -10px; 
+    text-align: center; 
+    margin: auto;
+  }
+  .top-bar img{
+    width: 100px;
+    height:60px;
+    
+    display: block; 
+    margin-right: 10px; 
+  }
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    }
+.logo2{
+    margin-bottom: 10px; 
+    margin-top: 20px;
+   width: 100px;
+   
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 5px;
+    padding:0;
+    background: #ffffff;
+    font-size: x-large;
+    }
+    .top-bar button {
+        margin-top: 10px; 
+        display: block; 
+        margin: 0 auto;
+    }
+    button {
+        
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+              }
+      
+      button:hover {
+                  background-color: #0056b3;
+              }
+            

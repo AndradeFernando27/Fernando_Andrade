@@ -1,0 +1,72 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+img{
+  margin-bottom: 10px; 
+  margin-top: 20px;
+  float:left;
+}
+.m1-img{
+  margin-bottom: 10px; 
+  margin-top: -20px;
+  float:right;
+}
+
+  .logo2{
+    margin-bottom: 10px; 
+    margin-top: -10px;
+   width: 100px;
+  }
+ 
+  .bmw-logo{
+    margin-bottom: 10px; 
+    margin-top: -20px;
+    float:right;
+  }
+ 
+.top-bar {
+    background-color: blue; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  .top-bar img{
+    width: 100px;
+    height:60px;
+     
+    display: block; 
+    margin-right: 10px; 
+  }
+  
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 5px;
+  padding:0;
+  background: #ffffff;
+  font-size: x-large;
+        }
+
+
+ h1 {
+text-align: center;
+color: #333;
+}
+
+ button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+        }
+
+button:hover {
+            background-color: #0056b3;
+        }
+
+       

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>BMW M Sport</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+// Na primeira pagina criei uma função para verificar se o usuario é de maior, se ele for de maior tera acesso ao site,
+// se nao for a pagina dara uma mensagem de erro
+//foi criada a função verificarIdade, com a variavel idade sendo responsavel por guardar o valor da idade do usuario, se for maior que 18,
+//uma mensagem via função alert dira que o acesso foi concedido, se nao for maior que 18 a mensagem sera de acesso negado
+//a função verificarIdade é aberta assim que usario abre o site,
+// por meio da função window.onload que faz com que o pagina seja carregada somente com a confirmação da idade
+//dentro do body utilizei uma função para ser usada no botao que levara o usuario a outra pagina, com o uso da função window.location.href
+//Dentro do primeiro paragrafo utilizei uma classe na imagem para poder fazer alterações em usa posição e tamanho.
+//Na segunda pagina foi criado um botao que retornaria para  Home(primeira pagina),
+// utilizando uma função Pag1 com o comando window.locatio,.href que faz o papel de retornar a outra pagina
+//Dentro do paragrafo utilizei uma classe na imagem para poder fazer alterações em usa posição e tamanho.
+        function verificarIdade() {
+            var idade = prompt("Por favor, informe sua idade:");
+
+            if (idade && parseInt(idade) >= 18) {
+                alert("Bem-vindo ao site!");
+                
+            } else {
+                alert("Você não tem permissão para acessar o site. Acesso permitido apenas para maiores de 18 anos.");
+                
+                window.location.href = "pagina-de-erro.html";
+            }
+        }
+
+        
+        window.onload = verificarIdade;
+    </script>
+</head>
+<body>
+    <div class="top-bar">
+        <img src="logo2.png" alt="logo" class="logo2">
+        <button onclick="irParaPagina2()">Modelo M3</button>
+
+    <script>
+        function irParaPagina2() {
+            window.location.href = "modelos.html";
+        }
+    </script>
+        
+    </div>
+    
+    
+    <h1>BMW M Sport</h1>
+    <p>
+        <img src="bmw-logo.png" alt="bmw-logo" class="img" />
+        Os modelos BMW M são verdadeiros carros esportivos.
+        Esta combinação de perfeição técnica com o desempenho esportivo aumentará a sua frequência cardíaca. 
+        Desde sedã e coupés até os SUVs, a tecnologia de corrida, como a suspensão esportiva M, 
+        os motores e mais a típica sintonia da série M,
+        tornam esses veículos esportivos a mistura definitiva entre luxo e desempenho.
+    </p>
+    <p>
+        <img src="m1.jpg" alt="m1" class="m1-img"/>
+
+        Primeiro veículo desenvolvido pela então BMW Motorsport no final dos anos setenta possuía um formato atemporal e recebeu uma entusiasmada recepção.
+        Desenvolvido pela lenda do design, Giorgio Giugiaro, 
+        o formato se baseava no BMW Turbo, um estudo de 1972 do designer de longa data da BMW, Paul Bracq.
+        As grades curvas e estreitas, os faróis dobráveis e as linhas bem definidas combinavam estética e dinâmica. 
+        E o desempenho também se tornou lendário: até 1983, 
+        foi o veículo de produção mais rápido da Alemanha. O supercarro esportivo com motor mediano atingia uma velocidade máxima de bem mais de 260 km/h,
+        estabelecendo a tradição dos veículos da série M nas pistas.
+        De 1979 até 1981, apenas 460 veículos foram feitos - todos construídos à mão. 
+        Qualquer pessoa com sorte o suficiente para dirigir um BMW M1 fala do seu excepcional estilo ao dirigir,
+        da flexibilidade, dinâmica nas curvas e do motor de 3,5 litros com rotação rápida.
+    </p>
+
+    
+</body>
+</html>
